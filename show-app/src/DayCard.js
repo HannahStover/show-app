@@ -12,12 +12,10 @@ const DayCard = ({ reading, degreeType }) => {
   const imgURL = `owf owf-${reading.weather[0].id} owf-5x`;
 
   return (
-    <div className='col-sm-2'>
-      <div className='card'>
+    <div className='col-md-2 col-sm-6'>
+      <div className='card-body'>
         <h3 className='card-title'>{moment(newDate).format('dddd')}</h3>
-        <p className='text-muted'>
-          {moment(newDate).format('MMMM Do, h:mm a')}
-        </p>
+        <p className=''>{moment(newDate).format('MMMM Do, h:mm a')}</p>
         <i className={imgURL}></i>
         <h2>{degreeType === 'celsius' ? celsius + '°C' : fahrenheit + '°F'}</h2>
         <div className='card-body'>

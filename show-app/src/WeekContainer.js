@@ -2,6 +2,7 @@ import React from 'react';
 import apiConfig from './apiKeys';
 import DayCard from './DayCard';
 import DegreeToggle from './DegreeToggle';
+import './Card.css';
 
 class WeekContainer extends React.Component {
   state = {
@@ -51,8 +52,8 @@ class WeekContainer extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h1 className='display-1 jumbotron'>5-Day Forecast.</h1>
-        <h5 className='display-5 text-muted'>Seattle, US</h5>
+        <h1 className='display-1'>5-Day Forecast</h1>
+        <h5 className='display-5'>Seattle, US</h5>
         <DegreeToggle
           updateForecastDegree={this.updateForecastDegree}
           degreeType={this.state.degreeType}

@@ -1,24 +1,44 @@
-.red {
-  font-size: 10em;
-  color: #44aadd;
+/* html {
+  height: 100%;
+  background-color: lightgray;
+} */
+
+body {
+  background-image: linear-gradient(white, lightgray);
+  height: 100%;
+  color: darkslateblue;
 }
 
-.btn {
-  background-color: #44aadd;
+.container {
+  border: darkslateblue solid 2px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.card {
-  width: 20rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+.display-1 {
+  font-size: 3.5em;
+  margin: 1em;
+  background: transparent;
+  color: darkslateblue;
+  font-weight: 400;
+}
+
+.card-body {
+  color: darkslateblue;
+}
+
+/* div.container {
+  color: white;
+} */
+
+i {
+  color: #009ea8;
 }
 
 i:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 1.5s;
-
+  color: #fdbc00;
   /* When the animation is finished, start again */
   /* animation-iteration-count: infinite;  */
 }
