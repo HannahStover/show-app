@@ -1,10 +1,5 @@
-/* html {
-  height: 100%;
-  background-color: lightgray;
-} */
-
 body {
-  background-image: linear-gradient(white, lightgray);
+  background-image: linear-gradient(#b5e0fa, white);
   height: 100%;
   color: darkslateblue;
 }
@@ -27,9 +22,11 @@ body {
   color: darkslateblue;
 }
 
-/* div.container {
-  color: white;
-} */
+hr {
+  width: 5em;
+  color: darkslateblue;
+  border: solid darkslateblue 1px;
+}
 
 i {
   color: #009ea8;

@@ -52,7 +52,10 @@ class WeekContainer extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h1 className='display-1'>5-Day Forecast</h1>
+        <h1 className='display-1'>
+          5-Day Forecast
+          <hr />
+        </h1>
         <h5 className='display-5'>Seattle, US</h5>
         <DegreeToggle
           updateForecastDegree={this.updateForecastDegree}
